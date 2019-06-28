@@ -1,16 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { Route, Switch, Link } from 'react-router-dom';
-import { PageNotFound } from './containers/PageNotFound';
+
 import ROUTE from './constants/ROUTES';
+
+import { PageNotFound } from './containers/PageNotFound';
+import { LayoutMain } from './containers/LayoutMain';
 import { Home } from './containers/Home';
 import { RecipeList } from './containers/RecipeList';
 import { Recipe } from './containers/Recipe';
 
+import './App.css';
+
 const App: React.FC = () => {
   return (
     <>
+      <LayoutMain>
+      </LayoutMain>
       <ul>
         <li><Link to={ROUTE.HOME}>Home</Link></li>
         <li><Link to={ROUTE.RECIPE_LIST}>RecipeList</Link></li>
