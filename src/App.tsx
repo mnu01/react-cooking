@@ -6,8 +6,8 @@ import ROUTE from './constants/ROUTES';
 import { PageNotFound } from './containers/PageNotFound';
 import { LayoutMain } from './containers/LayoutMain';
 import { Home } from './containers/Home';
-import { RecipeList } from './containers/RecipeList';
-import { Recipe } from './containers/Recipe';
+import RecipeList from './RecipeList/RecipeList';
+import Recipe from './containers/Recipe';
 
 import './App.css';
 

@@ -1,12 +1,13 @@
-import React, { FunctionComponent } from "react";
+import React, { Component } from "react";
 
-type RecipeProps = {
-    id: string,
-}
+// type RecipeProps = {
+//     id: string,
+// }
 
-
-export const Recipe: FunctionComponent<RecipeProps> = ({ id }) => <aside>
-    <p>
-        Recipe{id}
-    </p>
-</aside>
+export default class Recipe extends Component {
+    render() {
+        return (<aside>
+            <p>Recipe</p>
+        </aside>);
+    }
+} 

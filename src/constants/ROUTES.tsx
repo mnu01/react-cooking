@@ -1,5 +1,3 @@
-
-
 export default {
     HOME: '/',
     RECIPE_LIST: '/recipes',
