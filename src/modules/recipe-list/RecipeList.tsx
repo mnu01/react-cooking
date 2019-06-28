@@ -6,7 +6,7 @@ import RecipeModel from "../../models/RecipeModel";
 
 // type RecipeListProps = {
 //     title?: string,
-//     paragraph?: string // add ? for optional
+//     paragraph: string // add ? for optional
 // }
 
 export default class RecipeList extends Component {

@@ -22,33 +22,3 @@ export default class PageNotFound extends Component<PageNotFoundProps> {
         );
     }
 }
-
-// = () => <aside>
-//     <p>
-//         404
-//     </p>
-// </aside>
-
-// export default class RecipeList extends Component {
-//     state = {
-//         recipes: []
-//     }
-
-//     componentDidMount() {
-//         const url: string = API.build(API.RECIPES);
-//         console.log(`GET from ${url}`);
-//         axios.get(url).then(result => {
-//             let recipes: RecipeModel[] = result.data;
-//             console.log(`Receive ${recipes.length} items`);
-//             this.setState({ recipes });
-//         }, reject => {
-//             console.log(reject);
-//         })
-//     }
-
-//     render() {
-//         return (<ul>
-//             {this.state.recipes.map((recipe: RecipeModel) => <li>{recipe.name}</li>)}
-//         </ul>);
-//     }
-// }

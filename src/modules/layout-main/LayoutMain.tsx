@@ -22,8 +22,10 @@ type LayoutMainProps = {
 
 export const LayoutMain: FunctionComponent<LayoutMainProps> = () => <aside>
     <Navbar bg="light" expand="lg">
-        <Navbar.Brand href={ROUTES.HOME}>
-            <img src={PICTURES.HOME} width="24" alt="home" />
+        <Navbar.Brand>
+            <LinkContainer to={ROUTES.HOME}>
+                <img className="brand-link-custom" src={PICTURES.HOME} width="24" alt="home" />
+            </LinkContainer>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -53,6 +55,7 @@ export const LayoutMain: FunctionComponent<LayoutMainProps> = () => <aside>
             </Form>
         </Navbar.Collapse>
     </Navbar>
+
 </aside>
 
 
