@@ -1,9 +1,9 @@
 import React from 'react';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import ROUTES from './constants/ROUTES';
 
-import { PageNotFound } from './modules/page-not-found/PageNotFound';
+import PageNotFound from './modules/page-not-found/PageNotFound';
 import { LayoutMain } from './modules/layout-main/LayoutMain';
 import { Home } from './modules/home/Home';
 import RecipeList from './modules/recipe-list/RecipeList';
