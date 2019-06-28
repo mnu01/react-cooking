@@ -3,11 +3,11 @@ import { Route, Switch, Link } from 'react-router-dom';
 
 import ROUTES from './constants/ROUTES';
 
-import { PageNotFound } from './containers/page-not-found/PageNotFound';
-import { LayoutMain } from './containers/layout-main/LayoutMain';
-import { Home } from './containers/Home';
-import RecipeList from './RecipeList/RecipeList';
-import Recipe from './containers/Recipe';
+import { PageNotFound } from './modules/page-not-found/PageNotFound';
+import { LayoutMain } from './modules/layout-main/LayoutMain';
+import { Home } from './modules/home/Home';
+import RecipeList from './modules/recipe-list/RecipeList';
+import Recipe from './modules/recipe/Recipe';
 
 import './App.scss';
 

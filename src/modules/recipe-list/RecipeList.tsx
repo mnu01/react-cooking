@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import axios from 'axios';
 
-import API from '../constants/API';
-import RecipeModel from "../models/RecipeModel";
+import API from '../../constants/API';
+import RecipeModel from "../../models/RecipeModel";
 
 // type RecipeListProps = {
 //     title?: string,
