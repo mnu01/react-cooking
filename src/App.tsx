@@ -3,8 +3,8 @@ import { Route, Switch, Link } from 'react-router-dom';
 
 import ROUTES from './constants/ROUTES';
 
-import { PageNotFound } from './containers/PageNotFound';
-import { LayoutMain } from './containers/LayoutMain';
+import { PageNotFound } from './containers/page-not-found/PageNotFound';
+import { LayoutMain } from './containers/layout-main/LayoutMain';
 import { Home } from './containers/Home';
 import { RecipeList } from './containers/RecipeList';
 import { Recipe } from './containers/Recipe';

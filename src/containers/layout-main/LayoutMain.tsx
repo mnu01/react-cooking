@@ -9,8 +9,8 @@ import Button from 'react-bootstrap/Button';
 
 import { LinkContainer } from 'react-router-bootstrap';
 
-import PICTURES from '../constants/PICTURES';
-import ROUTES from "../constants/ROUTES";
+import PICTURES from '../../constants/PICTURES';
+import ROUTES from "../../constants/ROUTES";
 
 import './LayoutMain.scss';
 
@@ -31,7 +31,7 @@ export const LayoutMain: FunctionComponent<LayoutMainProps> = () => <aside>
                 <LinkContainer to={ROUTES.RECIPE_LIST}>
                     <NavItem className="nav-link nav-link-custom">Recipes</NavItem>
                 </LinkContainer>
-                <LinkContainer to={ROUTES.RECIPE}>
+                <LinkContainer to={ROUTES.RECIPE + "/test"}>
                     <NavItem className="nav-link nav-link-custom">Recipe</NavItem>
                 </LinkContainer>
                 <LinkContainer to={ROUTES.PAGE_NOT_FOUND}>
