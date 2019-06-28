@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { createBrowserHistory } from 'history'
 
-import './index.css';
+import './index.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
 let customHistory = createBrowserHistory();
